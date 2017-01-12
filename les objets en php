@@ -1,0 +1,4 @@
+<?php
+class Maclasse {
+      public $prop1=true;
+      public
