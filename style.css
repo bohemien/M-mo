@@ -25,5 +25,137 @@ h1, em {
 	color:blue;
 }
 
+	/* 
+* est le selecteur universel
+*/
 
+	/*
+h3 em {
+	property: value;
+}
+
+Sélectionne toutes les balises <em> 
+situées à l'intérieur d'une balise <h3>.
+ Notez qu'il n'y a pas de virgule entre 
+ les deux noms de balises.
+
+*/
+
+	/*
+h3+p  {
+	property: value;
+}
+
+Sélectionne la première balise <p>
+ située après un titre <h3>.
+ 
+ */
+ 
+	/*
+ a[title]	{
+	 property: value;
+ }
+ 
+ Sélectionne tous les liens <a>
+ qui possèdent un attribut title.
+ 
+ */
+ 
+	/*
+a[title="cliquez ici"]	{
+	property: value;
+}
+
+Idem, mais l'attribut doit en plus 
+avoir exactement pour valeur « Cliquez ici ».
+
+*/
+
+	/*
+	a[title*="ici"] {
+	property: value;
+	}
+	
+	Idem, l'attribut doit cette fois 
+	contenir dans sa valeur le mot « ici » 
+	(peu importe sa position).
+
+	*/
+	
+	p 		{
+		font-size: medium;
+	}
+	
+	/*
+	xx-small : minuscule ;
+	x-small : très petit ;
+	small : petit ;
+	medium : moyen ;
+	large : grand ;
+	x-large : très grand ;
+	xx-large : euh… gigantesque.
+
+	*/
+
+	h4 		{
+		font-size: 1.4em;
+	}
+	/*
+	Faites attention : pour les nombres décimaux,
+	il faut mettre un point et non une virgule.
+	Vous devez donc écrire « 1.4em » 
+	et non pas « 1,4em » !
+
+	*/
+	
+	/*
+	font-style:normal;
+	font-style:italic;
+	font-style:oblique;
+	*/
+	
+	/*
+	pour mettre en gras
+	font-weight:bold;
+	font-weight:normal;
+	*/
+	
+	/*
+	décoration de texte
+	text-decoration: underline; 	souligné
+	text-decoration: line-though;	barré
+	text-decoration: overline;		ligne au dessus
+	text-decoration: blink;			clignotant ne fonctionne pas toujours
+	text-decoration: none; 			normal (pas défaut)
+	*/
+		
+	/*
+	alignement du texte
+	text-align: left;
+	text-align: center;
+	text-align: right;
+	text-align: justify;
+	*/
+	
+	/*
+	mettre un flottant
+	mettre une class dans html par ex 
+	<p><img src="flash.gif" class="imageflottante" alt="image flottante"/></p>
+	
+	<p>Ce texte est écrit à côté de l'image flottante.</p>
+	
+	<p class="dessous">Ce texte est écrit sous l'image flottante.</p>
+	
+	Et ce code CSS :
+	
+.imageflottante
+{
+   float: left;
+}
+.dessous
+{
+   clear: both;
+}
+	*/
+/*ceci est un commentaire CSS*/
 /*ceci est un commentaire CSS*/
