@@ -1,0 +1,29 @@
+/*ceci est un commentaire CSS */
+
+h1 	{
+	color: blue;
+}
+p 	{
+	color: blue;
+}
+em 	{
+	color: blue;
+}
+
+h1, em {
+	color:blue;
+}
+
+.intoduction 	{
+	color: red;
+}
+.rock 			{
+	color: red;
+}
+
+#calin 			{
+	color:blue;
+}
+
+
+/*ceci est un commentaire CSS*/

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<!--En-tête de la page-->
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" href="style.css"/>
+			<title>Page_html_test</title>
+	</head>
+<body>
+<!--Corps de la page-->
+				<titre>Ceci est un titre</titre>
+				<!--Ceci est un commentaire-->
+				<h1>titre1 super important</h1>
+				<h2>titre2 important</h2>
+				<h3>titre3 un peu moins important</h3>
+				<h4>titre4 pas trop important</h4>
+				<h5>titre5 pas important</h5>
+				<h6>titre6 vraiment pas important du tout</h6>
+				
+				<img src="olaf.jpg" alt="j'aime les gros calins" id="calin">
+				<!--
+						<image/>
+						<imageNom="photo.jpg"/>
+						
+						<citation auteur="Neil Amstrong" date="21/07/1969">
+						"C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité."
+						</citation>
+					-->	
+					<p class="introduction">Bonjour et <mark>bienvenue</mark> sur mon site !!</p>
+					<p>Ceci est mon <em>premier</em> test alors <strong>soyez indulgents</strong> s'il vous plait,j'apprends petit à petit comment cela marche.
+					</p>
+					
+					<p class="introduction">Pour l'instant c'est un peu vide, mais revenez dans 2-3 jours quand 
+					j'aurai appris un peu plus de choses, je vous assure que vous allez être surpris!
+					</p>
+					<br/><!--pour aller à la ligne-->
+											<h1>Bienvenue sur OpenClassrooms !</h1>
+											
+											<p>Bonjour et bienvenue sur mon site: OpenClassrooms.<br/>
+											
+											OpenClassrooms, qu'est-ce que c'est?</p>
+											
+											<h2>Des cours pour débutants</h2>
+											
+											<p>OpenClassrooms vous propose des cours (tutoriels) destinés aux débutants : aucune
+											connaissance n'est requise pour lire ces cours!</p>
+											
+											<p>Voous pourrez ainsi apprendre, sans rien y connaitre auparavant, à créer un site web, à programmer, à construire des mondes en 3d!</p>
+											
+											<h2>Une communauté active</h2>
+											
+											<p>Vous avez un problème, un élement du cours que vous ne comprenez pas? 
+											Vous avez besoin d'aide pour créer votre site?<br/>
+											Rendez-vous sur les forums! Vous y découvrirez que vous n'êtes 
+											pas le seul dans ce cas et vous trouverez 
+											très certainement quelqu'un qui vous aidera aimablement à résoudre votre problème.</p>
+					<p>
+					<em>Pour mettre en valeur balise em</em>
+					<strong>fort ou important strong</strong>
+					<mark>La balise mark permet de faire ressortir visuellement une portion de texte.</mark>
+				</p>
+			<h3>Les listes</h3>
+			<h4>Liste non ordonnée</h4>
+			<ul>
+			<li>Fraises</li>
+			<li>Framboises</li>
+			<li>Cerises</li>
+			<li>Bananes</li>
+			<li>Kiwi</li>
+			</ul>
+			<h4>Liste ordonnée</h4>
+			<ol>
+			<li>Je me lève</li>
+			<li>Je mange et je bois.</li>
+			<li>Je retourne me coucher.</li>
+			</ol>
+			<br/>
+			<h3>Créer des liens</h3>
+			<p>Bonjour. Vous souhaitez visitez
+			<a href="https://openclassrooms.com">OpenClassrooms</a>?<br/>
+			C'est un bon site ;0)
+			</p>
+			<p>
+			Bonjour, souhaitez-vous consulter <a href="pageblanche2.html">la page2</a>?
+			</p>
+			<p>
+			Et si on allait voir des balises avec la page sur <a href="musique.html">la musique</a>?
+			</p>
+			<p>
+			Et si on allait voir des ancres situées sur une autre page<br/>
+			Rendez-vous quelque part sur une autre page:<br/>
+			<a href="musique.html#rock" title="grrr baby" target="blank">Un tour de Rock</a><br/>
+			<a href="musique.html#pop" target="blank">Un air de Pop</a><br/>
+			<a href="musique.html#jazz" target="blank">Un boeuf de jazz</a><br/>
+			</p>
+			<h4>Un lien pour envoyer un e-mail</h4>
+			<p>
+			<a href="mailto:bohemien.aurel@gmail.com">Envoyer-moi un e-mail ! </a>
+			</p>
+			<h4>Un lien pour télécharger un fichier</h4>
+			<p>
+			<a href="monfichier.zip">Télécharger le fichier</a>
+			</p>
+			<h3>Les images</h3>
+			<p>
+			Une photo : utilisez un JPEG.
+			N'importe quel graphique avec peu de couleurs (moins de 256) : utilisez un PNG 8 bits ou éventuellement un GIF.
+			N'importe quel graphique avec beaucoup de couleurs : utilisez un PNG 24 bits.
+			Une image animée : utilisez un GIF animé.
+			</p>
+			<p>Le racoon <img src="racoon.jpg" alt="racoon" title="RRRRRRRRRRRRRRRRRRaaaaaaaaccccccccccccccoooooooooooooooooooonnnnnnnnnnnnnnn"/></p>
+			
+		<!--<p>...<img src="..." alt="..." title="..."/></p> -->
+		
+		
+			<p>Vous souhaitez voir l'image dans sa taille d'origine? Cliquez dessus ! <br/>
+			<a href="DSCF4336.jpg" target="blank"><img src="racoon.jpg" alt="Le plus beau" title="Paul"/></a>
+			</p>
+
+			<h3>Les figures</h3>
+			
+			<p>
+			Si une image illustre le texte (et n'est pas seulement décorative), il est conseillé de la placer au sein d'une balise  <figure>. La balise  <figcaption>permet d'écrire la légende de l'image.
+
+			</p>
+			<!--
+			<figure>
+			<img src="" alt=""/>
+			<figcaption>légende de la balise figure</figcaption>
+			</figure>
+				-->
+			<h3>Appliquer un style class et id </h3>
+			
+			<p>
+			<p class="..."></p> en css .quelquechose
+			<p id="..."></p>    en css #quelquechose
+			Si vous vous emmêlez les pinceaux entre class et id retenez que 
+			deux balises peuvent avoir le même nom avec l'attribut class.
+			Un nom d'id doit en revanche être unique dans la page HTML.
+			</p>
+				
+			<h4>Les balises universelles</h4>
+			<p>
+			<span> </span> : c'est une balise de type inline, c'est-à-dire une balise que l'on place au sein 
+			d'un paragraphe de texte, pour sélectionner certains mots uniquement. Les balises <strong> et <em> 
+			sont de la même famille. Cette balise s'utilise donc au milieu d'un paragraphe et 
+			c'est celle dont nous allons nous servir pour colorer « bienvenue ».
+			<div> </div> : c'est une balise de type block, qui entoure un bloc de texte. Les balises <p>, <h1>, 
+			etc. sont de la même famille. Ces balises ont quelque chose en commun : elles créent un nouveau « bloc » dans la page et provoquent donc obligatoirement un retour à la ligne. <div>est une balise fréquemment utilisée dans la construction d'un design
+			</p>
+
+</body>
+
+</html>
